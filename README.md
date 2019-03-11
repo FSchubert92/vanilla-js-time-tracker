@@ -1,12 +1,6 @@
 # Express boilerplate
 
-A simple boilerplate for websites without modern JS in the frontend
-
-## Top features
-- ES7+ with Babel
-- scss
-- browser-sync
-- ejs
+A simple Time-Tracker app build with ES 7+ using an Express Boilerplate
 
 ## Installation
 ```sh

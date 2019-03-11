@@ -1,0 +1,18 @@
+.entries {
+  background: #eee;
+  overflow-y: scroll;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0 8px;
+  border-top: 3px double #aaa;
+  border-bottom: 2px solid darkorchid;
+
+  * {
+    font-size: 1.1em;
+  }
+}

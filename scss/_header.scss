@@ -1,0 +1,18 @@
+.filter {
+  display: flex;
+  border-bottom: 2px solid darkorchid;
+
+  > button {
+    width: 100%;
+    border: none;
+    &:hover {
+      color: darkorchid;
+      background: #eee;
+    }
+  }
+
+  .active {
+    background: darkorchid;
+    color: white;
+  }
+}

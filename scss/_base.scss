@@ -1,0 +1,12 @@
+html {
+  background: #ccc;
+}
+body {
+  display: grid;
+  grid-template-rows: 32px 1fr 48px auto;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 400px;
+  background: white;
+  font-family: sans-serif;
+}

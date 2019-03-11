@@ -1,0 +1,65 @@
+html {
+  background: #ccc; }
+
+body {
+  display: grid;
+  grid-template-rows: 32px 1fr 48px auto;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 400px;
+  background: white;
+  font-family: sans-serif; }
+
+.filter {
+  display: flex;
+  border-bottom: 2px solid darkorchid; }
+  .filter > button {
+    width: 100%;
+    border: none; }
+    .filter > button:hover {
+      color: darkorchid;
+      background: #eee; }
+  .filter .active {
+    background: darkorchid;
+    color: white; }
+
+.entries {
+  background: #eee;
+  overflow-y: scroll; }
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0 8px;
+  border-top: 3px double #aaa;
+  border-bottom: 2px solid darkorchid; }
+  .total * {
+    font-size: 1.1em; }
+
+.form {
+  display: grid;
+  grid-gap: 8px 12px;
+  grid-template-rows: 32px 32px 40px;
+  grid-template-columns: auto 1fr;
+  padding: 8px; }
+  .form label {
+    align-self: center; }
+  .form select {
+    height: 100%; }
+  .form input {
+    text-align: right; }
+  .form button {
+    grid-column: span 2;
+    background: darkorchid;
+    color: white;
+    border: none; }
+
+.entry {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid darkorchid; }
+
+/*# sourceMappingURL=style.css.map */

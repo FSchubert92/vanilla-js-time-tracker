@@ -1,0 +1,33 @@
+.form {
+  display: grid;
+  grid-gap: 8px 12px;
+  grid-template-rows: 32px 32px 40px;
+  grid-template-columns: auto 1fr;
+  padding: 8px;
+
+  label {
+    align-self: center;
+  }
+
+  select {
+    height: 100%;
+  }
+
+  input {
+    text-align: right;
+  }
+
+  button {
+    grid-column: span 2;
+    background: darkorchid;
+    color: white;
+    border: none;
+  }
+}
+
+.entry {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid darkorchid;
+}
